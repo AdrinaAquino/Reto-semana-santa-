@@ -4,21 +4,22 @@ import axios from "axios";
 export default function useData(url) {
   const [tasks, setTasks] = useState([]);
   const [error, setError] = useState("");
-  const [loadind, setLoading] = useState(false)
+  const [loadind, setLoading] = useState(false);
 
   async function getTasks() {
     try {
-      const {data} = await axios.get(url)
-      setTasks(data)
-
+      const { data } = await axios.get(url);
+      setTasks(data);
     } catch (error) {
-      setError(error.message)
+      setError(error.message);
     }
   }
   useEffect(() => {
-    getTasks()
-  }, [url])
+    getTasks();
+  }, [url]);
   return {
-    tasks, error, loadind
-  }
+    tasks,
+    error,
+    loadind,
+  };
 }
