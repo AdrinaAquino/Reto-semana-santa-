@@ -20,7 +20,7 @@ export default function Principal() {
         <div className="flex items-center  min-w-50 h-10 bg-[#111729] rounded-md divide-x-1 divide-[#364153]">
           <span className="text-center p-1 text-xs w-1/3 h-7">location</span>
           <span className="text-center p-1 text-xs w-2/3 h-7">
-            san francisco,ca
+            san francisco,caa
           </span>
         </div>
       </div>
