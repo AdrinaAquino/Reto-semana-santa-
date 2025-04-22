@@ -4,7 +4,7 @@ export default function Principal() {
   return (
     <div className="relative w-full h-65 bg-[#20293A]">
       <img
-        src="public/github-mark-white.png"
+        src="github-mark-white.png"
         alt=""
         className="absolute -top-8 left-8 w-22 bg-[#000000] rounded-xl border-6 border-[#20293A]"
       />

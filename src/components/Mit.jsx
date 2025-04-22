@@ -11,11 +11,11 @@ export default function Mit() {
         Discussions
       </p>
       <div className="flex items-center justify-center gap-2">
-        <img src="public/Chield_alt.svg" alt="" />
+        <img src="Chield_alt.svg" alt="" />
         <span>MIT</span>
-        <img src="public/Nesting.svg" alt="" />
+        <img src="Nesting.svg" alt="" />
         <span>5</span>
-        <img src="public/star.svg" alt="" />
+        <img src="star.svg" alt="" />
         <span>777</span>
         <p className="text-[9px]">
           updated <span>4</span> days ago
