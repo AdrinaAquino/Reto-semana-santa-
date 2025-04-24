@@ -5,7 +5,7 @@ import InformationPeople from "./components/InformationPeople";
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-[#20293A]">
       <NavBar />
       <Principal />
       <InformationPeople />
